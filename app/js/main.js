@@ -13,5 +13,11 @@ $(function () {
         arrows: false,
         fade: true,
     });
+
+    var mixer = mixitup('.gallery__inner', {
+        load: {
+            filter: '.living'
+        }
+    });
     
 })

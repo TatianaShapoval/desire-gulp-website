@@ -176,14 +176,15 @@
 }
 .rightside-menu{
     z-index: 999;
+    margin: 0 auto;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0; 
     width: 100%;
-    max-width: 694px;
+    max-width: 480px;
     background-color: #fff;
-    padding-top: 40px; 
+    padding: 20px 20px 40px 10px; 
     box-shadow: -2px 3px 17px 0px #000;
     transition: all .6s;
     &.rightside-menu--close{
@@ -194,7 +195,7 @@
         border: none;
         padding: 0;
         cursor: pointer;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
     &__content{
@@ -227,11 +228,12 @@
         }
     }
     &__text{
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     &__images{
+        margin: 0 auto;
         max-width: 485px;
-        height: 374px;
+        height: 250px;
     }
 }
 

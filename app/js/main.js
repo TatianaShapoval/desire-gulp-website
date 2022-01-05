@@ -14,6 +14,11 @@ $(function () {
         fade: true,
     });
 
+    $('.contact-slider').slick({
+        dots: true,
+        arrows: false
+    });
+
     var mixer = mixitup('.gallery__inner', {
         load: {
             filter: '.living'

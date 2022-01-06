@@ -15,8 +15,10 @@ $(function () {
     });
 
     $('.contact-slider').slick({
+        slidesToShow: 8,
+        slidesToScroll: 7,
         dots: true,
-        arrows: false
+        arrows: false,
     });
 
     var mixer = mixitup('.gallery__inner', {

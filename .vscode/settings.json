@@ -1,3 +1,7 @@
 {
-    "diffEditor.wordWrap": "on"
+    "diffEditor.wordWrap": "on",
+    "editor.accessibilityPageSize": 1,
+    "editor.minimap.scale": 2,
+    "editor.quickSuggestionsDelay": 0,
+    "scm.repositories.visible": 0
 }
